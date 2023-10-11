@@ -1,0 +1,156 @@
+Log created: 2023-09-27 18:51:06
+Type: backup
+[2023-09-27 18:51:08][notice]Start backing up.
+[2023-09-27 18:51:08][notice]server info fcgi:Off max execution time: 300 wp version:6.3.1 php version:8.2.4 db version:10.4.28 php ini:safe_mode: memory_limit:256M memory_get_usage:68.91 MB memory_get_peak_usage:70.84 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-09-27 18:51:08][notice]Prepare to backup backup_db files.
+[2023-09-27 18:51:08][notice]Start exporting database.
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_wpforms_tasks_meta
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_actionscheduler_claims
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_actionscheduler_groups
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_e_events
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_links
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_term_relationships
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_actionscheduler_logs
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_commentmeta
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_term_taxonomy
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_termmeta
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_terms
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_usermeta
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_users
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_wpforms_payment_meta
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_comments
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_actionscheduler_actions
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_wpforms_payments
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_posts
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_postmeta
+[2023-09-27 18:51:08][notice]Preparing to dump table wp_options
+[2023-09-27 18:51:08][notice]Exporting database finished.
+[2023-09-27 18:51:08][notice]Start compressing database
+[2023-09-27 18:51:08][notice]Prepare to zip file. file: localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_db.sql
+[2023-09-27 18:51:08][notice]Adding zip files completed.localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_db.part001.zip, filesize: 14.88 MB
+[2023-09-27 18:51:09][notice]Compressing database completed
+[2023-09-27 18:51:09][notice]Backing up backup_db completed.
+[2023-09-27 18:51:09][notice]Prepare to backup backup_themes files.
+[2023-09-27 18:51:10][notice]Compressing zip file:localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_themes.part001.zip index:731
+[2023-09-27 18:51:16][notice]Compressing zip file:localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_themes.part001.zip success. index:731 file size:21.24 MB
+[2023-09-27 18:51:16][notice]Backing up backup_themes completed.
+[2023-09-27 18:51:16][notice]Prepare to backup backup_plugin files.
+[2023-09-27 18:51:18][notice]Compressing zip file:localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_plugin.part001.zip index:2743
+[2023-09-27 18:51:56][notice]Compressing zip file:localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_plugin.part001.zip success. index:2743 file size:65.01 MB
+[2023-09-27 18:51:56][notice]Backing up backup_plugin completed.
+[2023-09-27 18:51:56][notice]Prepare to backup backup_uploads files.
+[2023-09-27 18:51:56][notice]Compressing zip file:localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_uploads.part001.zip index:64
+[2023-09-27 18:51:56][notice]Compressing zip file:localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_uploads.part001.zip success. index:64 file size:17.03 MB
+[2023-09-27 18:51:56][notice]Backing up backup_uploads completed.
+[2023-09-27 18:51:56][notice]Prepare to backup backup_content files.
+[2023-09-27 18:51:56][notice]Compressing zip file:localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_content.part001.zip index:1
+[2023-09-27 18:51:56][notice]Compressing zip file:localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_content.part001.zip success. index:1 file size:424.00 B
+[2023-09-27 18:51:56][notice]Backing up backup_content completed.
+[2023-09-27 18:51:56][notice]Prepare to backup backup_core files.
+[2023-09-27 18:51:59][notice]Compressing zip file:localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_core.part001.zip index:2599
+[2023-09-27 18:52:50][notice]Compressing zip file:localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_core.part001.zip success. index:2599 file size:52.43 MB
+[2023-09-27 18:52:50][notice]Backing up backup_core completed.
+[2023-09-27 18:52:50][notice]Prepare to backup backup_merge files.
+[2023-09-27 18:52:50][notice]Prepare to zip file. file: localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_db.zip
+[2023-09-27 18:52:50][notice]Adding zip files completed.localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.part001.zip, filesize: 14.88 MB
+[2023-09-27 18:52:50][notice]Prepare to zip file. file: localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_themes.zip
+[2023-09-27 18:52:52][notice]Adding zip files completed.localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.part001.zip, filesize: 22.06 MB
+[2023-09-27 18:52:52][notice]Prepare to zip file. file: localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_plugin.zip
+[2023-09-27 18:52:55][notice]Adding zip files completed.localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.part001.zip, filesize: 39.78 MB
+[2023-09-27 18:52:55][notice]Prepare to zip file. file: localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_uploads.zip
+[2023-09-27 18:52:56][notice]Adding zip files completed.localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.part001.zip, filesize: 51.86 MB
+[2023-09-27 18:52:56][notice]Prepare to zip file. file: localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_content.zip
+[2023-09-27 18:52:57][notice]Adding zip files completed.localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.part001.zip, filesize: 51.87 MB
+[2023-09-27 18:52:57][notice]Prepare to zip file. file: localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_core.zip
+[2023-09-27 18:53:02][notice]Adding zip files completed.localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.part001.zip, filesize: 63.69 MB
+[2023-09-27 18:53:02][notice]Backing up backup_merge completed.
+[2023-09-27 18:53:02][notice]files: ["C:\/xampp\/htdocs\/DreamHub\/wp-content\/wpvividbackups\/localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip"]
+[2023-09-27 18:53:02][notice]Connect site 
+[2023-09-27 18:53:03][notice]Start uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip
+[2023-09-27 18:53:04][notice]{"result":"success","file_status":{"status":"start"}}
+[2023-09-27 18:53:04][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 0
+[2023-09-27 18:53:06][notice]finished send chunk
+[2023-09-27 18:53:07][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 2097152
+[2023-09-27 18:53:10][notice]finished send chunk
+[2023-09-27 18:53:10][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 4.00 MB speed:599.19kb/s
+[2023-09-27 18:53:10][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 4194304
+[2023-09-27 18:53:13][notice]finished send chunk
+[2023-09-27 18:53:14][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 6.00 MB speed:524.29kb/s
+[2023-09-27 18:53:14][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 6291456
+[2023-09-27 18:53:17][notice]finished send chunk
+[2023-09-27 18:53:17][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 8388608
+[2023-09-27 18:53:20][notice]finished send chunk
+[2023-09-27 18:53:20][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 10.00 MB speed:699.05kb/s
+[2023-09-27 18:53:20][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 10485760
+[2023-09-27 18:53:23][notice]finished send chunk
+[2023-09-27 18:53:23][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 12582912
+[2023-09-27 18:53:26][notice]finished send chunk
+[2023-09-27 18:53:26][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 14.00 MB speed:699.05kb/s
+[2023-09-27 18:53:26][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 14680064
+[2023-09-27 18:53:30][notice]finished send chunk
+[2023-09-27 18:53:30][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 16.00 MB speed:524.29kb/s
+[2023-09-27 18:53:30][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 16777216
+[2023-09-27 18:53:34][notice]finished send chunk
+[2023-09-27 18:53:34][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 18.00 MB speed:524.29kb/s
+[2023-09-27 18:53:34][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 18874368
+[2023-09-27 18:53:37][notice]finished send chunk
+[2023-09-27 18:53:37][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 20971520
+[2023-09-27 18:53:40][notice]finished send chunk
+[2023-09-27 18:53:40][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 22.00 MB speed:699.05kb/s
+[2023-09-27 18:53:40][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 23068672
+[2023-09-27 18:53:43][notice]finished send chunk
+[2023-09-27 18:53:43][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 25165824
+[2023-09-27 18:53:47][notice]finished send chunk
+[2023-09-27 18:53:47][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 26.00 MB speed:599.19kb/s
+[2023-09-27 18:53:47][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 27262976
+[2023-09-27 18:53:50][notice]finished send chunk
+[2023-09-27 18:53:50][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 29360128
+[2023-09-27 18:53:53][notice]finished send chunk
+[2023-09-27 18:53:53][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 30.00 MB speed:699.05kb/s
+[2023-09-27 18:53:54][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 31457280
+[2023-09-27 18:53:57][notice]finished send chunk
+[2023-09-27 18:53:57][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 32.00 MB speed:524.29kb/s
+[2023-09-27 18:53:57][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 33554432
+[2023-09-27 18:54:00][notice]finished send chunk
+[2023-09-27 18:54:00][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 35651584
+[2023-09-27 18:54:04][notice]finished send chunk
+[2023-09-27 18:54:04][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 36.00 MB speed:599.19kb/s
+[2023-09-27 18:54:05][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 37748736
+[2023-09-27 18:54:08][notice]finished send chunk
+[2023-09-27 18:54:08][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 38.00 MB speed:524.29kb/s
+[2023-09-27 18:54:08][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 39845888
+[2023-09-27 18:54:11][notice]finished send chunk
+[2023-09-27 18:54:11][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 41943040
+[2023-09-27 18:54:17][notice]finished send chunk
+[2023-09-27 18:54:17][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 42.00 MB speed:466.03kb/s
+[2023-09-27 18:54:17][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 44040192
+[2023-09-27 18:54:20][notice]finished send chunk
+[2023-09-27 18:54:20][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 46137344
+[2023-09-27 18:54:23][notice]finished send chunk
+[2023-09-27 18:54:23][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 46.00 MB speed:699.05kb/s
+[2023-09-27 18:54:23][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 48234496
+[2023-09-27 18:54:26][notice]finished send chunk
+[2023-09-27 18:54:26][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 50331648
+[2023-09-27 18:54:30][notice]finished send chunk
+[2023-09-27 18:54:30][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 50.00 MB speed:599.19kb/s
+[2023-09-27 18:54:30][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 52428800
+[2023-09-27 18:54:33][notice]finished send chunk
+[2023-09-27 18:54:33][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 54525952
+[2023-09-27 18:54:36][notice]finished send chunk
+[2023-09-27 18:54:36][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 54.00 MB speed:699.05kb/s
+[2023-09-27 18:54:36][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 56623104
+[2023-09-27 18:54:40][notice]finished send chunk
+[2023-09-27 18:54:40][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 56.00 MB speed:524.29kb/s
+[2023-09-27 18:54:40][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 58720256
+[2023-09-27 18:54:43][notice]finished send chunk
+[2023-09-27 18:54:43][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 60817408
+[2023-09-27 18:54:46][notice]finished send chunk
+[2023-09-27 18:54:46][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 60.00 MB speed:699.05kb/s
+[2023-09-27 18:54:46][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 62914560
+[2023-09-27 18:54:50][notice]finished send chunk
+[2023-09-27 18:54:50][notice]Uploading localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip Total size: 63.69 MB Uploaded: 62.00 MB speed:524.29kb/s
+[2023-09-27 18:54:50][notice]send chunk localhost_DreamHub_wpvivid-6514799a79bbd_2023-09-27-18-51_backup_all.zip offset 65011712
+[2023-09-27 18:54:53][notice]finished send chunk
+[2023-09-27 18:54:53][notice]upload finished
+[2023-09-27 18:54:54][notice]Finish upload to send_to_site
+[2023-09-27 18:54:54][notice]Upload finished. Delete task wpvivid-6514799a79bbd
